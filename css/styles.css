@@ -746,6 +746,15 @@ img {
 }
 
 /* ---- FAQ ---- */
+#duvidas {
+  text-align: center;
+}
+
+#duvidas .faq {
+  text-align: left;
+  margin-inline: auto;
+}
+
 .faq {
   display: grid;
   gap: 10px;
