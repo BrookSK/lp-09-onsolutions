@@ -48,20 +48,3 @@
 @media (min-width: 860px) {
   .legal-hero { padding: 48px 0 52px; }
 }
-
-/* Rodapé das páginas legais */
-.lfoot { background: #050B14; color: #8FA2B8; padding: 40px 0 calc(32px + 84px); font-size: 14px; }
-.lfoot-in { width: min(1120px, 100% - 48px); margin-inline: auto; }
-.lfoot-top { display: grid; gap: 28px; padding-bottom: 28px; }
-.lfoot a { color: #B7C6D8; text-decoration: none; }
-.lfoot a:hover { color: #fff; text-decoration: underline; }
-.lfoot-logo { display: inline-flex; align-items: center; gap: 10px; color: #fff !important; font-weight: 700; font-size: 15px; margin-bottom: 14px; }
-.lfoot-brand p { max-width: 280px; line-height: 1.6; }
-.lfoot-links { display: flex; flex-wrap: wrap; gap: 10px 18px; align-content: flex-start; }
-.lfoot-contact { display: grid; gap: 6px; align-content: flex-start; }
-.lfoot-copy { border-top: 1px solid rgba(255, 255, 255, .08); padding-top: 22px; font-size: 12.5px; }
-@media (min-width: 860px) {
-  .lfoot-top { grid-template-columns: 1.1fr 1.3fr auto; gap: 40px; }
-  .lfoot-links { max-width: 340px; }
-  .lfoot-contact { text-align: right; justify-items: end; }
-}
